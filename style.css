@@ -1,0 +1,46 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    overflow-x: hidden;
+    }
+
+#square1{width: 100vw;
+        height: 200px;
+        background-color: purple;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;}
+
+.green{width: 150px;
+    height: 150px;
+    background-color: greenyellow;
+    border: 1px solid black;
+    flex-shrink: 1;}
+
+#square2 {display: flex;
+        width: 100vw;
+        height: 200px;
+         justify-content: center;
+         align-items: center;
+        background-color: purple;}
+
+#square2{font-size: 70px; color: rgb(0, 255, 229);}
+
+#square3{
+    width: 100vw;
+    height: fit-content;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: purple;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.red{background-color: red;
+    width: 150px;
+    height: 150px;}
